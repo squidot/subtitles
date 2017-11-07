@@ -1,5 +1,10 @@
 <?php
-
+if(!function_exists('squidot_admin_global_scripts')){
+	function squidot_admin_global_scripts () {
+		wp_enqueue_style('squidot-intro-css', 'intro.css');
+	}
+	add_action( 'admin_enqueue_scripts', 'squidot_admin_global_scripts' );
+}
 /* -------------------------------------------------------------------------*
  * 							Intro Text										                              *
  * -------------------------------------------------------------------------*/
