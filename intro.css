@@ -1,0 +1,44 @@
+/* Squidot Intro Text Field */
+
+#squidot_intro_div{
+    position: relative;
+	margin-top: 5px;
+}
+#squidot_intro_div label {
+    cursor: text
+}
+
+#squidot_intro_div div.inside {
+    margin: 0
+}
+
+#squidot_intro_div #squidot_intro_text {
+    padding: 3px 8px;
+    font-size: 1.7em;
+    line-height: 100%;
+    height: 1.7em;
+    width: 100%;
+    outline: 0;
+    margin: 0 0 3px;
+    background-color: #fff
+}
+
+#squidot_intro_div #squidot_intro_text-prompt-text {
+    color: #72777c;
+    position: absolute;
+    font-size: 1.7em;
+    padding: 11px 10px
+}
+#poststuff #squidot_intro_wrap {
+    border: 0;
+    padding: 0
+}
+form.initial-form.quickpress-open input#squidot_intro_text {
+    height: auto
+}
+
+@media screen and (max-width:782px) {
+ #squidot_intro_div #squidot_intro_text-prompt-text {
+        padding: 10px
+    }
+}
